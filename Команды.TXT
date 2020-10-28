@@ -1,0 +1,7 @@
+git init - инициализация гит репозитория (создается папка .git)
+git config --global user.name "SemiseriousWizard"		- очевидные команды. Благодаря им пользователям будет видно, кто вносил изменения
+git config --global user.email "almaz.mukhamadyev2017@yandex.ru"
+git status - посмотреть статус проекта (отслеживаются файлы или нет)
+git add %filename% - добавить файл для отслеживания гитом
+git add --all - будут отслеживаться все файлы
+.gitignore - имя файла. В файл записываются те данные, которые гит будет игнорировать: myapp.cpp, src/* и т.д.
